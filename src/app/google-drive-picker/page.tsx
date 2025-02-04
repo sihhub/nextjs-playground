@@ -2,9 +2,8 @@
 
 import { useEffect, useState } from "react";
 
-const CLIENT_ID =
-  "34106576185-aqsgjq6favqhiar90pq834slhoku6ic9.apps.googleusercontent.com";
-const API_KEY = "AIzaSyCeK119GRc7IkRv83G24I80ZfnoL5TUvk0";
+const CLIENT_ID = "";
+const API_KEY = "";
 const DISCOVERY_DOCS = [
   "https://www.googleapis.com/discovery/v1/apis/drive/v3/rest",
 ];
