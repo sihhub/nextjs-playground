@@ -22,10 +22,16 @@ function solution(s) {
       }
     }
 
-    // compressed += (count > 1 ? count : "") + prev;
+    compressed += (count > 1 ? count : "") + prev;
 
     minLen = Math.min(minLen, compressed.length);
   }
+  return minLen;
 }
 
-console.log(Math.floor(5 / 2));
+// 테스트
+console.log(solution("aabbaccc")); // 7
+console.log(solution("ababcdcdababcdcd")); // 9
+console.log(solution("abcabcdede")); // 8
+console.log(solution("abcabcabcabcdededededede")); // 14
+console.log(solution("xababcdcdababcdcd")); // 17
